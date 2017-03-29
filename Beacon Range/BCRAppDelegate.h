@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+@import CoreLocation;
+@import CoreBluetooth;
 
 @interface BCRAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+
+- (void)stopMonitor;
 
 @end

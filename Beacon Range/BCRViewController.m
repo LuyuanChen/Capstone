@@ -7,6 +7,7 @@
 //
 
 #import "BCRViewController.h"
+#import "BCRAppDelegate.h"
 
 @interface BCRViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"Current: Base, root: %@", ((BCRAppDelegate *)[UIApplication sharedApplication].delegate).window.rootViewController.presentingViewController);
+
 }
 
 - (void)didReceiveMemoryWarning

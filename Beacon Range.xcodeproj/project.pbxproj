@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E446F7091E8B2A43003CFA55 /* BCRCapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E446F7081E8B2A43003CFA55 /* BCRCapViewController.m */; };
+		F94BEEF5193E699300482ECC /* BCRColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F94BEEF4193E699300482ECC /* BCRColorPicker.m */; };
 		F95FFEB2191BC73D00577CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95FFEB1191BC73D00577CA7 /* Foundation.framework */; };
 		F95FFEB4191BC73D00577CA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95FFEB3191BC73D00577CA7 /* CoreGraphics.framework */; };
 		F95FFEB6191BC73D00577CA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95FFEB5191BC73D00577CA7 /* UIKit.framework */; };
@@ -21,6 +23,21 @@
 		F95FFED3191BC73D00577CA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95FFEB5191BC73D00577CA7 /* UIKit.framework */; };
 		F95FFEDB191BC73D00577CA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F95FFED9191BC73D00577CA7 /* InfoPlist.strings */; };
 		F95FFEDD191BC73D00577CA7 /* Beacon_RangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F95FFEDC191BC73D00577CA7 /* Beacon_RangeTests.m */; };
+		F95FFEE7191BC74900577CA7 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95FFEE6191BC74900577CA7 /* CoreBluetooth.framework */; };
+		F95FFEE9191BC74E00577CA7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95FFEE8191BC74E00577CA7 /* CoreLocation.framework */; };
+		F95FFEEC191BC78C00577CA7 /* BCRDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = F95FFEEB191BC78C00577CA7 /* BCRDefaults.m */; };
+		F95FFEF2191BFE8F00577CA7 /* BCRTransmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95FFEF1191BFE8F00577CA7 /* BCRTransmitterViewController.m */; };
+		F95FFEF5191C03E900577CA7 /* BCRReceiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95FFEF4191C03E900577CA7 /* BCRReceiverViewController.m */; };
+		F98399DB192CE81700B79B06 /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98399DA192CE81700B79B06 /* Main-iPad.storyboard */; };
+		F98399E4192CEDB200B79B06 /* BCRArduinoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98399E3192CEDB200B79B06 /* BCRArduinoViewController.m */; };
+		F9910A9D193F8B3C0096FC7F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9910A9C193F8B3C0096FC7F /* QuartzCore.framework */; };
+		F9AC1B841925019A002E60EB /* BCRCentralService.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AC1B831925019A002E60EB /* BCRCentralService.m */; };
+		F9AC1B8719254991002E60EB /* BCRBeaconService.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AC1B8619254991002E60EB /* BCRBeaconService.m */; };
+		F9AC1B8A1925499F002E60EB /* BCRPeripheralService.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AC1B891925499F002E60EB /* BCRPeripheralService.m */; };
+		F9AC1B8D19256363002E60EB /* BCRTransmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AC1B8C19256363002E60EB /* BCRTransmitViewController.m */; };
+		F9C8CA67193671C5009D2C58 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C8CA66193671C5009D2C58 /* PassKit.framework */; };
+		F9DBD684193FA96100114B0F /* ISColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DBD683193FA96100114B0F /* ISColorWheel.m */; };
+		F9DBD6881940C9E000114B0F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DBD6871940C9E000114B0F /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E446F7071E8B2A43003CFA55 /* BCRCapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRCapViewController.h; sourceTree = "<group>"; };
+		E446F7081E8B2A43003CFA55 /* BCRCapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRCapViewController.m; sourceTree = "<group>"; };
+		F94BEEF3193E699300482ECC /* BCRColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRColorPicker.h; sourceTree = "<group>"; };
+		F94BEEF4193E699300482ECC /* BCRColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRColorPicker.m; sourceTree = "<group>"; };
 		F95FFEAE191BC73D00577CA7 /* Beacon Range.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beacon Range.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95FFEB1191BC73D00577CA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F95FFEB3191BC73D00577CA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +74,34 @@
 		F95FFED8191BC73D00577CA7 /* Beacon RangeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beacon RangeTests-Info.plist"; sourceTree = "<group>"; };
 		F95FFEDA191BC73D00577CA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F95FFEDC191BC73D00577CA7 /* Beacon_RangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beacon_RangeTests.m; sourceTree = "<group>"; };
+		F95FFEE6191BC74900577CA7 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		F95FFEE8191BC74E00577CA7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F95FFEEA191BC78C00577CA7 /* BCRDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRDefaults.h; sourceTree = "<group>"; };
+		F95FFEEB191BC78C00577CA7 /* BCRDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRDefaults.m; sourceTree = "<group>"; };
+		F95FFEF0191BFE8F00577CA7 /* BCRTransmitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCRTransmitterViewController.h; path = ../BCRTransmitterViewController.h; sourceTree = "<group>"; };
+		F95FFEF1191BFE8F00577CA7 /* BCRTransmitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCRTransmitterViewController.m; path = ../BCRTransmitterViewController.m; sourceTree = "<group>"; };
+		F95FFEF3191C03E900577CA7 /* BCRReceiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRReceiverViewController.h; sourceTree = "<group>"; };
+		F95FFEF4191C03E900577CA7 /* BCRReceiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRReceiverViewController.m; sourceTree = "<group>"; };
+		F98399DA192CE81700B79B06 /* Main-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Main-iPad.storyboard"; path = "../Main-iPad.storyboard"; sourceTree = "<group>"; };
+		F98399E2192CEDB200B79B06 /* BCRArduinoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRArduinoViewController.h; sourceTree = "<group>"; };
+		F98399E3192CEDB200B79B06 /* BCRArduinoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRArduinoViewController.m; sourceTree = "<group>"; };
+		F9910A9C193F8B3C0096FC7F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F9AC1B821925019A002E60EB /* BCRCentralService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRCentralService.h; sourceTree = "<group>"; };
+		F9AC1B831925019A002E60EB /* BCRCentralService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRCentralService.m; sourceTree = "<group>"; };
+		F9AC1B8519254991002E60EB /* BCRBeaconService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRBeaconService.h; sourceTree = "<group>"; };
+		F9AC1B8619254991002E60EB /* BCRBeaconService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRBeaconService.m; sourceTree = "<group>"; };
+		F9AC1B881925499F002E60EB /* BCRPeripheralService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRPeripheralService.h; sourceTree = "<group>"; };
+		F9AC1B891925499F002E60EB /* BCRPeripheralService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRPeripheralService.m; sourceTree = "<group>"; };
+		F9AC1B8B19256363002E60EB /* BCRTransmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCRTransmitViewController.h; path = ../BCRTransmitViewController.h; sourceTree = "<group>"; };
+		F9AC1B8C19256363002E60EB /* BCRTransmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCRTransmitViewController.m; path = ../BCRTransmitViewController.m; sourceTree = "<group>"; };
+		F9B14EA9193383EA003A6FD7 /* BCRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRTableViewController.h; sourceTree = "<group>"; };
+		F9B66E051922A4DA004EB52F /* TransferService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferService.h; sourceTree = "<group>"; };
+		F9C8CA66193671C5009D2C58 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		F9C8CA68193671C5009D2C58 /* Beacon Range.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Beacon Range.entitlements"; sourceTree = "<group>"; };
+		F9DBD682193FA96100114B0F /* ISColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISColorWheel.h; sourceTree = "<group>"; };
+		F9DBD683193FA96100114B0F /* ISColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISColorWheel.m; sourceTree = "<group>"; };
+		F9DBD6861940C9DF00114B0F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F9DBD6871940C9E000114B0F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +109,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9910A9D193F8B3C0096FC7F /* QuartzCore.framework in Frameworks */,
+				F9C8CA67193671C5009D2C58 /* PassKit.framework in Frameworks */,
+				F95FFEE9191BC74E00577CA7 /* CoreLocation.framework in Frameworks */,
+				F95FFEE7191BC74900577CA7 /* CoreBluetooth.framework in Frameworks */,
 				F95FFEB4191BC73D00577CA7 /* CoreGraphics.framework in Frameworks */,
 				F95FFEB6191BC73D00577CA7 /* UIKit.framework in Frameworks */,
 				F95FFEB2191BC73D00577CA7 /* Foundation.framework in Frameworks */,
@@ -79,6 +132,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E446F7061E8B2A17003CFA55 /* Capstone */ = {
+			isa = PBXGroup;
+			children = (
+				E446F7071E8B2A43003CFA55 /* BCRCapViewController.h */,
+				E446F7081E8B2A43003CFA55 /* BCRCapViewController.m */,
+			);
+			name = Capstone;
+			sourceTree = "<group>";
+		};
 		F95FFEA5191BC73D00577CA7 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +163,10 @@
 		F95FFEB0191BC73D00577CA7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F9910A9C193F8B3C0096FC7F /* QuartzCore.framework */,
+				F9C8CA66193671C5009D2C58 /* PassKit.framework */,
+				F95FFEE8191BC74E00577CA7 /* CoreLocation.framework */,
+				F95FFEE6191BC74900577CA7 /* CoreBluetooth.framework */,
 				F95FFEB1191BC73D00577CA7 /* Foundation.framework */,
 				F95FFEB3191BC73D00577CA7 /* CoreGraphics.framework */,
 				F95FFEB5191BC73D00577CA7 /* UIKit.framework */,
@@ -112,12 +178,32 @@
 		F95FFEB7191BC73D00577CA7 /* Beacon Range */ = {
 			isa = PBXGroup;
 			children = (
+				E446F7061E8B2A17003CFA55 /* Capstone */,
+				F9C8CA68193671C5009D2C58 /* Beacon Range.entitlements */,
+				F9AC1B8B19256363002E60EB /* BCRTransmitViewController.h */,
+				F9AC1B8C19256363002E60EB /* BCRTransmitViewController.m */,
+				F95FFEF0191BFE8F00577CA7 /* BCRTransmitterViewController.h */,
+				F95FFEF1191BFE8F00577CA7 /* BCRTransmitterViewController.m */,
+				F95FFEF3191C03E900577CA7 /* BCRReceiverViewController.h */,
+				F95FFEF4191C03E900577CA7 /* BCRReceiverViewController.m */,
+				F9AC1B821925019A002E60EB /* BCRCentralService.h */,
+				F9AC1B831925019A002E60EB /* BCRCentralService.m */,
+				F9AC1B881925499F002E60EB /* BCRPeripheralService.h */,
+				F9AC1B891925499F002E60EB /* BCRPeripheralService.m */,
+				F9AC1B8519254991002E60EB /* BCRBeaconService.h */,
+				F9AC1B8619254991002E60EB /* BCRBeaconService.m */,
 				F95FFEC0191BC73D00577CA7 /* BCRAppDelegate.h */,
 				F95FFEC1191BC73D00577CA7 /* BCRAppDelegate.m */,
+				F9B66E051922A4DA004EB52F /* TransferService.h */,
+				F95FFEEA191BC78C00577CA7 /* BCRDefaults.h */,
+				F95FFEEB191BC78C00577CA7 /* BCRDefaults.m */,
 				F95FFEC3191BC73D00577CA7 /* Main.storyboard */,
+				F9B14EA9193383EA003A6FD7 /* BCRTableViewController.h */,
 				F95FFEC6191BC73D00577CA7 /* BCRViewController.h */,
 				F95FFEC7191BC73D00577CA7 /* BCRViewController.m */,
 				F95FFEC9191BC73D00577CA7 /* Images.xcassets */,
+				F9DBD6851940C98F00114B0F /* Pods */,
+				F98399D9192CE7D500B79B06 /* iPad */,
 				F95FFEB8191BC73D00577CA7 /* Supporting Files */,
 			);
 			path = "Beacon Range";
@@ -150,6 +236,37 @@
 				F95FFED9191BC73D00577CA7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F98399D9192CE7D500B79B06 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				F98399E2192CEDB200B79B06 /* BCRArduinoViewController.h */,
+				F98399E3192CEDB200B79B06 /* BCRArduinoViewController.m */,
+				F98399DA192CE81700B79B06 /* Main-iPad.storyboard */,
+				F94BEEF3193E699300482ECC /* BCRColorPicker.h */,
+				F94BEEF4193E699300482ECC /* BCRColorPicker.m */,
+				F9DBD682193FA96100114B0F /* ISColorWheel.h */,
+				F9DBD683193FA96100114B0F /* ISColorWheel.m */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		F9DBD6851940C98F00114B0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9DBD6891940C9E300114B0F /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9DBD6891940C9E300114B0F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F9DBD6861940C9DF00114B0F /* MBProgressHUD.h */,
+				F9DBD6871940C9E000114B0F /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +317,17 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					F95FFEAD191BC73D00577CA7 = {
+						DevelopmentTeam = J76D8DN9ES;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Passbook = {
+								enabled = 1;
+							};
+						};
+					};
 					F95FFECE191BC73D00577CA7 = {
 						TestTargetID = F95FFEAD191BC73D00577CA7;
 					};
@@ -232,6 +360,7 @@
 				F95FFECA191BC73D00577CA7 /* Images.xcassets in Resources */,
 				F95FFEBC191BC73D00577CA7 /* InfoPlist.strings in Resources */,
 				F95FFEC5191BC73D00577CA7 /* Main.storyboard in Resources */,
+				F98399DB192CE81700B79B06 /* Main-iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +379,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9AC1B8A1925499F002E60EB /* BCRPeripheralService.m in Sources */,
+				F98399E4192CEDB200B79B06 /* BCRArduinoViewController.m in Sources */,
 				F95FFEC2191BC73D00577CA7 /* BCRAppDelegate.m in Sources */,
+				F9AC1B841925019A002E60EB /* BCRCentralService.m in Sources */,
 				F95FFEC8191BC73D00577CA7 /* BCRViewController.m in Sources */,
+				F95FFEF2191BFE8F00577CA7 /* BCRTransmitterViewController.m in Sources */,
 				F95FFEBE191BC73D00577CA7 /* main.m in Sources */,
+				E446F7091E8B2A43003CFA55 /* BCRCapViewController.m in Sources */,
+				F9AC1B8719254991002E60EB /* BCRBeaconService.m in Sources */,
+				F95FFEEC191BC78C00577CA7 /* BCRDefaults.m in Sources */,
+				F9AC1B8D19256363002E60EB /* BCRTransmitViewController.m in Sources */,
+				F95FFEF5191C03E900577CA7 /* BCRReceiverViewController.m in Sources */,
+				F9DBD684193FA96100114B0F /* ISColorWheel.m in Sources */,
+				F94BEEF5193E699300482ECC /* BCRColorPicker.m in Sources */,
+				F9DBD6881940C9E000114B0F /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,10 +518,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beacon Range/Beacon Range-Prefix.pch";
 				INFOPLIST_FILE = "Beacon Range/Beacon Range-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +535,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beacon Range/Beacon Range-Prefix.pch";
 				INFOPLIST_FILE = "Beacon Range/Beacon Range-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +606,7 @@
 				F95FFEE2191BC73D00577CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F95FFEE3191BC73D00577CA7 /* Build configuration list for PBXNativeTarget "Beacon RangeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +615,7 @@
 				F95FFEE5191BC73D00577CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
