@@ -318,7 +318,7 @@
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
 					F95FFEAD191BC73D00577CA7 = {
-						DevelopmentTeam = J76D8DN9ES;
+						DevelopmentTeam = DB8U4UVWSC;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -520,6 +520,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = DB8U4UVWSC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beacon Range/Beacon Range-Prefix.pch";
 				INFOPLIST_FILE = "Beacon Range/Beacon Range-Info.plist";
@@ -537,6 +538,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = DB8U4UVWSC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beacon Range/Beacon Range-Prefix.pch";
 				INFOPLIST_FILE = "Beacon Range/Beacon Range-Info.plist";

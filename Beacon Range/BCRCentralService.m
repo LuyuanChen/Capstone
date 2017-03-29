@@ -134,7 +134,7 @@
     if (central.state < CBCentralManagerStatePoweredOn)
     {
         NSLog(@"Device not ready for connection");
-        NSLog(@"Device state: [%d]", central.state);
+        NSLog(@"Device state: [%ld]", (long)central.state);
         [_logDelegate didGenerateLogMessage:@"Device not ready for connection"];
         [self BLEinit];
         return;

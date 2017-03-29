@@ -113,8 +113,6 @@
         
         // when beacon received, we start the bluetooth
         [BCRCentralService sharedService].serviceUUID = [CBUUID UUIDWithString:TRANSFER_SERVICE_UUID];
-        // info service for BLE
-        [BCRCentralService sharedService].infoUUID = [CBUUID UUIDWithString:INFO_UUID];
         [BCRCentralService sharedService].writeCharacteristicUUID = [CBUUID UUIDWithString:TRANSFER_CHARACTERISTIC_UUID];
         [BCRCentralService sharedService].notifyCharacteristicUUID = [CBUUID UUIDWithString:TRANSFER_NOTIFY_CHARACTERISTC_UUID];
         [[BCRCentralService sharedService] BLEinit];

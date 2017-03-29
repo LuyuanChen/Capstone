@@ -8,6 +8,7 @@
 
 #import "BCRCapViewController.h"
 #import "BCRCentralService.h"
+#import "TransferService.h"
 
 @interface BCRCapViewController () <BCRCentralServiceDelegate>
 
@@ -25,16 +26,15 @@
 - (IBAction)activateBLE:(UIButton *)sender {
 //    do things here
     BCRCentralService *service = [BCRCentralService sharedService];
+    // info service for BLE
+    service.infoUUID = [CBUUID UUIDWithString:TRANSFER_SERVICE_UUID];
+    
     service.delegate = self;
     service.logDelegate = self;
     [service BLEinit];
-    
-    
 }
 
-- (void) didGenerateLogMessage:(NSString *)message {
-    NSLog(@"Message generated: [%@]", message);
+- (void)didGenerateLogMessage:(NSString *)message {
+    return;
 }
-
-
 @end
