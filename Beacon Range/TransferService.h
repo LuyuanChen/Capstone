@@ -15,7 +15,7 @@
 #define TRANSFER_NOTIFY_CHARACTERISTC_UUID  @"713D0002-503E-4C75-BA94-3148F18D941E"
 #define BEACON_UUID                         @"184F757A-F6AA-4805-8343-9C67940D6C2B"
 
-#define INFO_UUID                           @"180A"
+#define INFO_UUID                           @"00001800-0000-1000-8000-00805f9b34fb"
 #endif
 
 /**

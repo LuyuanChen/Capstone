@@ -146,7 +146,7 @@
 - (void)scan
 {
     NSLog(@"Scanning w/ UUID [%@]", self.infoUUID);
-    [self.centralManager scanForPeripheralsWithServices:@[self.infoUUID] options:@{ CBCentralManagerScanOptionAllowDuplicatesKey: @YES}];
+    [self.centralManager scanForPeripheralsWithServices:nil options:@{ CBCentralManagerScanOptionAllowDuplicatesKey: @YES}];
     NSLog(@"Scan started");
     [_logDelegate didGenerateLogMessage:@"Scan Started"];
 
@@ -160,6 +160,11 @@
         return;
     }
     
+    // reject anything other than raspberrypi
+    if (![peripheral.name isEqual: @"raspberrypi"]) {
+        return;
+    }
+    NSLog(@"rpi discovered");
     NSString *log = [NSString stringWithFormat:@"Discovered %@ at %@",peripheral.name, RSSI];
     NSLog(@"Discovered %@ at %@\n", peripheral.name, RSSI);
     [_logDelegate didGenerateLogMessage:log];
@@ -235,7 +240,7 @@
     NSLog(@"Connected\n");
     peripheral.delegate = self;
     // search for the services
-    [peripheral discoverServices:@[self.serviceUUID]];
+    [peripheral discoverServices:/*@[self.serviceUUID]*/ nil];
     NSLog(@"Start to discover service\n\n");
     
     // log to delegate

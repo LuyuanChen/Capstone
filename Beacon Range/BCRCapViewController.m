@@ -27,7 +27,7 @@
 //    do things here
     BCRCentralService *service = [BCRCentralService sharedService];
     // info service for BLE
-    service.infoUUID = [CBUUID UUIDWithString:TRANSFER_SERVICE_UUID];
+    service.infoUUID = [CBUUID UUIDWithString:INFO_UUID];
     
     service.delegate = self;
     service.logDelegate = self;
